@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Check List - Dishes</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      margin: 0;
+      padding: 0;
+    }
+
+    header.navbar {
+      background-color: #333;
+      color: white;
+      padding: 15px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    nav ul li a:hover {
+      text-decoration: none;
+      color: rgb(225, 200, 15);
+      transition: 0.5s ease;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    .checklist h2 {
+      text-align: center;
+      font-size: 28px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .dish-list {
+      list-style: none; 
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .dish-list li:hover {
+      transition: 0.3s ease;
+      transform: scale(1.05);
+      box-shadow: 10px 10px 10px 10px grey;
+    }
+
+
+    .dish-item {
+      background-color: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 250px;
+      text-align: center;
+    }
+
+    .dish-image {
+      width: 100%;
+      height: 200px;  
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .dish-item h3 {
+      font-size: 20px;
+      margin-top: 10px;
+    }
+
+    .dish-item a {
+      color: #333;
+      text-decoration: none;
+    }
+
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #333;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="navbar">
+    <h1>Dish Check List</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="checklist.html">Check List</a></li>
+        <li><a href="chinese.html">Chinese</a></li>
+        <li><a href="pakistani.html">Pakistani</a></li>
+        <li><a href="french.html">French</a></li>
+        <li><a href="italian.html">Italian</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="checklist">
+      <h2>Explore Our Dishes</h2>
+      <ul class="dish-list">
+        <!-- Biryani Dish -->
+        <li class="dish-item">
+          <a href="biryani.html">
+            <img src="biryani.jpeg" alt="Biryani" class="dish-image">
+            <h3>Biryani</h3>
+          </a>
+        </li>
+    
+        <!-- Beef Pulao Dish -->
+        <li class="dish-item">
+          <a href="beefPulao.html">
+            <img src="beefPulao.jpeg" alt="Beef Pulao" class="dish-image">
+            <h3>Beef Pulao</h3>
+          </a>
+        </li>
+    
+        <!-- Kofta Dish -->
+        <li class="dish-item">
+          <a href="kofta.html">
+            <img src="kofta.jpeg" alt="Kofta" class="dish-image">
+            <h3>Kofta</h3>
+          </a>
+        </li>
+    
+        <!-- Seekh Kebab Dish -->
+        <li class="dish-item">
+          <a href="seekhKebab.html">
+            <img src="seekhKebab.jpeg" alt="Seekh Kebab" class="dish-image">
+            <h3>Seekh Kebab</h3>
+          </a>
+        </li>
+    
+        <!-- Kashmiri Chai Dish -->
+        <li class="dish-item">
+          <a href="kashmiriChai.html">
+            <img src="kashmiriChai.jpeg" alt="Kashmiri Chai" class="dish-image">
+            <h3>Kashmiri Chai</h3>
+          </a>
+        </li>
+    
+        <!-- Coq au Vin Dish -->
+        <li class="dish-item">
+          <a href="coqauvin.html">
+            <img src="coqauvin.jpg" alt="Coq au Vin" class="dish-image">
+            <h3>Coq au Vin</h3>
+          </a>
+        </li>
+    
+        <!-- Ratatouille Dish -->
+        <li class="dish-item">
+          <a href="ratatouille.html">
+            <img src="ratatouille.jpg" alt="Ratatouille" class="dish-image">
+            <h3>Ratatouille</h3>
+          </a>
+        </li>
+    
+        <!-- Baguette Dish -->
+        <li class="dish-item">
+          <a href="baguette.html">
+            <img src="baguette.jpg" alt="Baguette" class="dish-image">
+            <h3>Baguette</h3>
+          </a>
+        </li>
+    
+        <!-- Pasta Dish -->
+        <li class="dish-item">
+          <a href="pasta.html">
+            <img src="pasta.jpeg" alt="Pasta" class="dish-image">
+            <h3>Pasta</h3>
+          </a>
+        </li>
+    
+        <!-- Pizza Dish -->
+        <li class="dish-item">
+          <a href="pizza.html">
+            <img src="pizza.jpg" alt="Pizza" class="dish-image">
+            <h3>Pizza</h3>
+          </a>
+        </li>
+    
+        <!-- Lasagna Dish -->
+        <li class="dish-item">
+          <a href="lasagna.html">
+            <img src="lasagna.jpg" alt="Lasagna" class="dish-image">
+            <h3>Lasagna</h3>
+          </a>
+        </li>
+    
+        <!-- Kung Pao Chicken Dish -->
+        <li class="dish-item">
+          <a href="kungpao.html">
+            <img src="kungpao.jpg" alt="Kung Pao Chicken" class="dish-image">
+            <h3>Kung Pao Chicken</h3>
+          </a>
+        </li>
+    
+        <!-- Fried Rice Dish -->
+        <li class="dish-item">
+          <a href="friedrice.html">
+            <img src="friedrice.jpg" alt="Fried Rice" class="dish-image">
+            <h3>Fried Rice</h3>
+          </a>
+        </li>
+      </ul>
+    </section>
+    
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Foodie's Paradise. All rights reserved.</p>
+  </footer>
+</body>
+</html>
